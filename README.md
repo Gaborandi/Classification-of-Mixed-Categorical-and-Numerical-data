@@ -5,4 +5,4 @@ the code is dealing with missed data from both numerical and categorical variabl
 
 categorical data should be converted into dummies variables first
 
-
+to overcome the unbalanced data, i did both oversampling and undersampling techniques 
