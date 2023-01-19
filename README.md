@@ -6,3 +6,7 @@ the code is dealing with missed data from both numerical and categorical variabl
 categorical data should be converted into dummies variables first
 
 to overcome the unbalanced data, i did both oversampling and undersampling techniques 
+
+undersampling: in this technique, we Under-Sample the majority class(es) by randomly picking samples with or without replacement.
+
+you can find the documentation of this python library here = https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.RandomUnderSampler.html
