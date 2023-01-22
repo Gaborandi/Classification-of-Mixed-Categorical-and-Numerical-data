@@ -1,11 +1,14 @@
 # Classification-of-Mixed-Categorical-and-Numerical-data
-This Python code illustrates how to do a classification on mixed data (categorical and numerical) using different ML models
 
-the code is dealing with missed data from both numerical and categorical variables
+This Python code illustrates how to do a classification on mixed data (categorical and numerical) with missed data using different ML models
 
-categorical data should be converted into dummies variables first
+the code is dealing with missed data from both numerical and categorical variables by different methods
+
+categorical data should be converted into dummies variables first in order to do the classification
 
 to overcome the unbalanced data, i did both oversampling and undersampling techniques 
+
+unbalanced data could make the machine learning algorithm misclassify the variables
 
 undersampling: in this technique, we Under-Sample the majority class(es) by randomly picking samples with or without replacement.
 
