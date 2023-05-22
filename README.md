@@ -2,7 +2,7 @@
 
 This Python code illustrates how to do a classification on mixed data (categorical and numerical) with missed data using different ML models
 
-the code is dealing with missed data from both numerical and categorical variables by different methods
+the code is dealing with missed data from both numerical and categorical variables by different methods (you can try other methods also to check their accuracy)
 
 categorical data should be converted into dummies variables first in order to do the classification
 
@@ -21,4 +21,3 @@ for the oversampling i've used SMOTE (Synthetic Minority Oversampling Technique)
 SMOTE synthesizes new examples for the minority class.
 
 SMOTE works by selecting examples that are close in the feature space, drawing a line between the examples in the feature space and drawing a new sample at a point along that line. Specifically, a random example from the minority class is first chosen. Then k of the nearest neighbors for that example are found (typically k=5). A randomly selected neighbor is chosen and a synthetic example is created at a randomly selected point between the two examples in feature space. (https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
-
